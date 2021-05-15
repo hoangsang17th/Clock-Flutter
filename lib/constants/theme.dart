@@ -13,6 +13,7 @@ ThemeData themeData(BuildContext context) {
     scaffoldBackgroundColor: Colors.white,
     colorScheme: ColorScheme.light(
       secondary: kSecondaryLightColor,
+      // surface: kSurfaceLightColor,
       // on light theme surface = Colors.white by default
     ),
     backgroundColor: Colors.white,

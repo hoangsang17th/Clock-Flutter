@@ -24,10 +24,3 @@ class AlarmInfo {
         "isPending": isPending,
       };
 }
-
-List<AlarmInfo> alarms = [
-  AlarmInfo(
-    alarmDateTime: DateTime.now().add(Duration(hours: 1)),
-    title: 'Office',
-  ),
-];

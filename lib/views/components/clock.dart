@@ -44,9 +44,9 @@ class _ClockState extends State<Clock> {
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    offset: Offset(0, 0),
+                    offset: Offset(0, 4),
                     color: kShadowColor.withOpacity(0.14),
-                    blurRadius: 64,
+                    blurRadius: 17,
                   ),
                 ],
               ),

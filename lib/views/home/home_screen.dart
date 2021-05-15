@@ -19,6 +19,7 @@ class HomeScreen extends StatelessWidget {
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
       leading: IconButton(
+        tooltip: "Alarms",
         icon: SvgPicture.asset(
           "assets/icons/Settings.svg",
           color: Theme.of(context).iconTheme.color,
@@ -34,8 +35,9 @@ class HomeScreen extends StatelessWidget {
       ),
       actions: [
         IconButton(
+          tooltip: "Timer",
           icon: Icon(
-            Icons.alarm_add_rounded,
+            Icons.timer_rounded,
             color: Theme.of(context).iconTheme.color,
             size: 24,
           ),
